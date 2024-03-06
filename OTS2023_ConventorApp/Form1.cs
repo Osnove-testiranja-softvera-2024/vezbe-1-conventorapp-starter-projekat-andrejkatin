@@ -16,5 +16,10 @@ namespace OTS2023_ConventorApp
         {
             InitializeComponent();
         }
+
+        private void btnTest_Click(object sender, EventArgs e)
+        {
+            btnTest.Enabled = false;
+        }
     }
 }
